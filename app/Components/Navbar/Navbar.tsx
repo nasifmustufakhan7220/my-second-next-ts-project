@@ -15,6 +15,8 @@ const Navbar = () => {
 
       <li><Link className={`${pathname === '/posts' || pathname.startsWith('/posts/') ? "text-blue-500" : ""}`} href={`/posts`}>Posts</Link></li>
 
+      <li><Link className={`${pathname === '/foods' || pathname.startsWith('/foods')? "text-blue-500" : ""}`} href='/foods'>Foods</Link></li>
+
       <li><Link className={`${pathname === '/about/contact/phone' ? "text-blue-500": ""}`} href="/about/contact/phone">Phone</Link></li>
     </>
   );
